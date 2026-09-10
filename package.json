@@ -1,0 +1,12 @@
+{
+  "name": "zkai-osg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Z界 OSG（大阪政治グループ）のウェブサイト",
+  "scripts": {
+    "build": "node scripts/prepare-netlify.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -2,7 +2,37 @@
 
 SEIZ・トーマス・うわさのうどんの配信者グループのサイトデザイン案。
 
+管理リポジトリ：https://github.com/mikioxxx/zkai
+
 `dist` に公開用の静的ファイルがあります。文章は `dist/index.html`、スタイルは `dist/style.css` で編集できます。
+
+## Netlifyへの公開
+
+### フォルダをアップロードする場合
+
+`netlify-deploy` フォルダをNetlifyの手動デプロイ画面へドラッグ＆ドロップしてください。フォルダ直下に `index.html` が入っています。リポジトリ全体をアップロードする必要はありません。
+
+ローカルの `netlify-deploy.zip` にも同じ公開ファイルをまとめています。ZIPはGit管理対象外です。
+
+### GitHubと連携する場合
+
+Netlifyで既存のGitリポジトリからサイトを作成し、`mikioxxx/zkai` の `main` ブランチを選択してください。設定は `netlify.toml` に記載済みです。
+
+- ベースディレクトリ：リポジトリのルート（空欄）
+- ビルドコマンド：`node scripts/prepare-netlify.mjs`
+- 公開ディレクトリ：`netlify-deploy`
+- 外部ライブラリ・環境変数：不要
+
+### 更新手順
+
+1. `dist` 内のHTML・CSS・画像を編集します。
+2. `npm run build` で `netlify-deploy` を更新します。
+3. 更新した `dist` と `netlify-deploy` をコミットしてGitHubへpushします。
+4. Git連携済みのNetlifyはpushを受けてビルドします。手動公開の場合は更新後のフォルダをアップロードします。
+
+ZIPを更新する場合はPowerShellで `Compress-Archive -Path netlify-deploy/* -DestinationPath netlify-deploy.zip -Force` を実行します。
+
+`research` は制作メモ、`.openai/hosting.json` は既存のSites確認用サイトの設定です。どちらもNetlify用フォルダには含みません。
 
 ## 掲載情報
 

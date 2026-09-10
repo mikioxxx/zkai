@@ -1,3 +1,4 @@
 research/*.html
 *.tar.gz
 *.tgz
+netlify-deploy.zip
