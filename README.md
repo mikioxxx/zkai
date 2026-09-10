@@ -4,6 +4,8 @@ SEIZ・トーマス・うわさのうどんの配信者グループのサイト�
 
 管理リポジトリ：https://github.com/mikioxxx/zkai
 
+現行デザインは黒とネオングリーンのサイバーパンク版です。`S__19562525.jpg` は方向性の参照専用で、公開フォルダには含めません。旧Z界イメージ画像は使用を終了し、`research/retired-assets` に保存しています。
+
 `dist` に公開用の静的ファイルがあります。文章は `dist/index.html`、スタイルは `dist/style.css` で編集できます。
 
 ## Netlifyへの公開
