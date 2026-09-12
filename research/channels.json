@@ -23,5 +23,15 @@
       "https://www.instagram.com/kickstreaming",
       "https://x.com/Kick"
     ]
+  },
+  {
+    "channel": "https://kick.com/kicho",
+    "image": "https://files.kick.com/images/user/92873948/profile_image/conversion/dff6a4c3-a972-479b-888a-b33398374b95-fullsize.webp",
+    "retrieved": "2026-09-12"
+  },
+  {
+    "channel": "https://kick.com/nakamurakundesu",
+    "image": "https://files.kick.com/images/user/66783030/profile_image/conversion/82db7d29-7db7-489a-a069-3a4ee448b204-fullsize.webp",
+    "retrieved": "2026-09-12"
   }
 ]

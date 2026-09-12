@@ -67,3 +67,10 @@ body{background:#020703;background-image:radial-gradient(ellipse at 0 30%,#1b5b1
 .secret-hippo{background-position:0 0}.secret-engine{background-position:0 50%}.secret-noodle{background-position:0 100%}
 .effects-paused .host-z::after{animation-play-state:paused}
 @media(prefers-reduced-motion:reduce){.host-z::after{animation:none;opacity:.6}}
+
+/* Five-member crew */
+.hero-channel-strip{grid-template-columns:repeat(5,minmax(0,1fr))}.strip-title{grid-column:1/-1;padding:12px 20px;border-bottom:1px solid var(--line)}.hero-channel-strip>a{padding:18px 16px;gap:10px}.hero-channel-strip>a:first-of-type{border-left:0}
+.member-grid{grid-template-columns:repeat(6,minmax(0,1fr))}.member-grid>.member{grid-column:span 2}.member-grid>.member:nth-child(4){grid-column:2 / span 2}.member-grid>.member:nth-child(5){grid-column:4 / span 2}
+.hero-description{max-width:100%;text-wrap:balance}.ticker{flex-wrap:wrap;row-gap:8px}
+@media(max-width:1000px){.hero-channel-strip{grid-template-columns:repeat(3,minmax(0,1fr))}.hero-channel-strip>a{border-bottom:1px solid var(--line)}}
+@media(max-width:700px){.hero-channel-strip{grid-template-columns:1fr}.member-grid{grid-template-columns:1fr}.member-grid>.member,.member-grid>.member:nth-child(4),.member-grid>.member:nth-child(5){grid-column:auto}.hero-channel-strip>a{padding:15px 20px}.hero-description{line-height:2}}
