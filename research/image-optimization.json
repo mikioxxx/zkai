@@ -1,0 +1,38 @@
+[
+  {
+    "file": "osaka-neon-landmarks",
+    "before": 3283953,
+    "after": 480288,
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "file": "zkai-neon-emblem",
+    "before": 2536415,
+    "after": 440444,
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "file": "chrome-type-atlas",
+    "before": 1383574,
+    "after": 195230,
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "file": "secret-crew-marks",
+    "before": 1355703,
+    "after": 25928,
+    "size": [
+      256,
+      384
+    ]
+  }
+]
