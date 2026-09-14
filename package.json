@@ -2,7 +2,7 @@
   "name": "zkai-osg",
   "version": "1.0.0",
   "private": true,
-  "description": "Z界 OSG（大阪せいZグループ）のウェブサイト",
+  "description": "Z界 OSG（大阪SEIZグループ）のウェブサイト",
   "scripts": {
     "build": "node scripts/prepare-netlify.mjs"
   },
