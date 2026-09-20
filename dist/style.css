@@ -87,3 +87,4 @@ body{background:#020703;background-image:radial-gradient(ellipse at 0 30%,#1b5b1
 .member-dismissed .dismissal-portrait{position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-14deg);font-size:clamp(30px,4.2vw,54px);background:#170806b8;max-width:90%}
 .member-dismissed .member-links a{background:#231916;border-color:#714a41;color:#d9beb5;box-shadow:none}
 .member-dismissed .member-links a:hover{background:#57352d;color:#fff}
+.member-dismissed .member-links .dismissed-name{min-width:4.5em;text-align:center;line-height:1.8}
