@@ -74,3 +74,16 @@ body{background:#020703;background-image:radial-gradient(ellipse at 0 30%,#1b5b1
 .hero-description{max-width:100%;text-wrap:balance}.ticker{flex-wrap:wrap;row-gap:8px}
 @media(max-width:1000px){.hero-channel-strip{grid-template-columns:repeat(3,minmax(0,1fr))}.hero-channel-strip>a{border-bottom:1px solid var(--line)}}
 @media(max-width:700px){.hero-channel-strip{grid-template-columns:1fr}.member-grid{grid-template-columns:1fr}.member-grid>.member,.member-grid>.member:nth-child(4),.member-grid>.member:nth-child(5){grid-column:auto}.hero-channel-strip>a{padding:15px 20px}.hero-description{line-height:2}}
+
+/* Rubber-stamp treatment: text stays selectable and adds no image requests. */
+.dismissal-stamp{display:inline-block;color:#ff7565;border:.09em solid currentColor;outline:.025em solid currentColor;outline-offset:-.19em;padding:.12em .28em .17em;font-family:var(--body);font-weight:900;line-height:1.15;letter-spacing:.06em;white-space:nowrap;text-shadow:none;box-shadow:none;transform:rotate(-11deg);pointer-events:none;mask-image:repeating-linear-gradient(173deg,#000 0 5px,#0009 5px 6px,#000 6px 11px),radial-gradient(ellipse at center,transparent 0 .55px,#000 1px);mask-size:auto,7px 5px;mask-composite:intersect}
+.dismissed-name{display:inline-block;position:relative;white-space:nowrap;vertical-align:baseline;isolation:isolate}
+.dismissed-name>del{opacity:.35;text-decoration-thickness:2px;text-decoration-color:#fc6b60}
+.dismissal-inline{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-11deg);font-size:.75em;z-index:1;background:#170806d9}
+.hero-channel-strip>a>.dismissed-name{font:inherit;color:inherit;min-width:0}
+.member-dismissed{border-color:#895249;border-top-color:#ba6658;box-shadow:0 0 15px #9d3b191b}
+.member-dismissed .member-top{color:#da9a90;background:#211511;border-bottom-color:#68413b}
+.member-dismissed .portrait img{filter:grayscale(.9) brightness(.6);opacity:.65}
+.member-dismissed .dismissal-portrait{position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-14deg);font-size:clamp(30px,4.2vw,54px);background:#170806b8;max-width:90%}
+.member-dismissed .member-links a{background:#231916;border-color:#714a41;color:#d9beb5;box-shadow:none}
+.member-dismissed .member-links a:hover{background:#57352d;color:#fff}
