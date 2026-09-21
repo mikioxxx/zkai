@@ -4,7 +4,9 @@
 
 元に戻す場合は、このフォルダの `index.html` を `dist/index.html` にコピーし、`npm run build` を実行してください。既存のCSS・JavaScript・画像は保持しています。
 
-生成画像: `dist/assets/zkai-ruins.png`
+公開画像: `dist/assets/zkai-ruins.webp`
+生成原本: `research/image-originals/zkai-ruins.png`
+軽量化: 1536×1024を維持し、WebP品質82・method=6で圧縮。2,720,823バイトから231,910バイトへ約91.5%削減。
 生成方法: 組み込み image_gen ツール。
 
 ## 生成プロンプト
