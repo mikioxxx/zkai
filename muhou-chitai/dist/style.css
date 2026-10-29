@@ -7,3 +7,56 @@
 .channel h3{min-height:3.1em;overflow-wrap:anywhere}.member-alias{display:block;font-size:.62em;font-weight:500;line-height:1.8;letter-spacing:0;color:var(--muted)}.handle{overflow-wrap:anywhere}.roster-date{display:inline-block;margin-top:14px;font:11px monospace;color:var(--muted)}
 @media(min-width:1200px){.channel-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.channel h3{font-size:clamp(18px,1.6vw,24px)}}
 @media(min-width:901px) and (max-width:1199px){.channel-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+/* Phone layout: readable roster rows with a full-card tap target. */
+@media(max-width:600px){
+  html{scroll-padding-top:82px}
+  body{line-height:1.7}
+  .header{height:68px;padding-inline:16px;gap:12px}
+  .brand{font-size:18px;gap:7px;white-space:nowrap;min-height:44px}
+  .nav-cta{display:flex;align-items:center;min-height:44px;padding:10px 12px;font-size:12px;white-space:nowrap}
+  .hero{padding:28px 20px 0}
+  .hero .eyebrow{font-size:9px;letter-spacing:.04em;gap:8px;flex-wrap:wrap}
+  h1{font-size:clamp(36px,10vw,50px);line-height:1.3;margin:24px 0 20px}
+  .hero-description{font-size:15px;line-height:1.9}
+  .button{display:flex;width:100%;min-height:52px;font-size:15px;margin-top:24px;padding:14px 20px}
+  .hero-art{max-width:280px;margin-top:24px}
+  .art-index,.art-caption{display:none}
+  .hero-bottom{flex-direction:column;gap:4px;margin-top:20px;padding:16px 0;font-size:11px;letter-spacing:.02em}
+  .hero-bottom a{display:flex;align-items:center;justify-content:space-between;min-height:44px}
+  .section{padding:40px 20px}
+  .section-label{font-size:10px;letter-spacing:.03em;gap:12px;flex-wrap:wrap;padding-bottom:16px}
+  h2{font-size:clamp(27px,7.5vw,34px);line-height:1.5}
+  .about-text{font-size:15px;line-height:1.95}
+  .principles p{font-size:14px;line-height:1.9}
+  .principles span{font-size:11px}
+  .section-heading{margin:26px 0}
+  .section-heading p{font-size:14px;margin-top:14px}
+  .roster-date{font-size:12px;margin-top:10px}
+  .channel-grid{grid-template-columns:minmax(0,1fr);gap:12px;scroll-margin-top:16px}
+  .channel{display:grid;grid-template-columns:100px minmax(0,1fr);gap:14px;padding:14px;background:#191919;border:1px solid #343434;align-items:start}
+  .portrait{aspect-ratio:1;align-self:start}
+  .portrait img{filter:none}
+  .channel-number{top:5px;left:5px;font-size:10px;padding:2px 5px}
+  .platform{bottom:5px;right:5px;font-size:9px;padding:4px 6px;letter-spacing:0}
+  .channel-info{padding:0;min-width:0}
+  .role{display:block;font-size:12px;line-height:1.5;color:#ff686c;letter-spacing:.03em}
+  .channel h3{min-height:0;font-size:19px;line-height:1.5;margin:4px 0;letter-spacing:-.035em}
+  .member-alias{font-size:12px;line-height:1.6;color:#c2bfb9}
+  .handle{display:block;font-size:10px;line-height:1.6;letter-spacing:.02em;color:#bbb}
+  .channel-action{min-height:44px;padding:10px 0 0;margin-top:8px;font-size:12px;align-items:center;gap:8px}
+  .channel-action b{color:#ff686c}
+  .channel-note{font-size:12px;line-height:1.8;margin-top:18px}
+  .dragon{padding:20px 20px 0}
+  .dragon img{max-height:460px}
+  .manifesto-copy{padding:32px 20px 40px}
+  .manifesto h2{font-size:clamp(32px,9vw,44px)}
+  .manifesto-copy>p:not(.eyebrow){font-size:15px;line-height:1.95}
+  footer{padding:28px 20px max(24px,env(safe-area-inset-bottom));gap:18px}
+  footer p{font-size:12px;line-height:1.8}
+  .back-top{display:flex;align-items:center;min-height:44px;font-size:10px}
+  footer small{font-size:10px}
+}
+@media(max-width:359px){
+  .header{padding-inline:12px;gap:8px}.brand{font-size:16px}.nav-cta{padding-inline:9px;font-size:11px}
+  .hero,.section{padding-inline:16px}.channel{grid-template-columns:80px minmax(0,1fr);padding:12px;gap:12px}.channel h3{font-size:18px}
+}
