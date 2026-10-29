@@ -10,15 +10,21 @@ Z界 OSG と分離した静的サイト。公開ファイルは `dist/`。この
 - ビルド不要。Netlify に手動公開する場合は、このサイトの `dist` を別サイトにアップロード。
 - Sites の専用 ID は、このフォルダの `.openai/hosting.json` に保存。
 
-## 掲載情報と出典（2026-10-28）
+## 正式メンバー（2026.10.28 現在）
 
-団体名、所属、役職、指定画像はユーザー提供。池田さん＝池ちゃん、パンダ＝ぱんだ院長として掲載。コピーは背景説明から本サイト用に制作。過去の対立の説明、他団体の名前や評価、本人発言としての引用は掲載していません。
+2026-10-29 にユーザー提供の正式メンバー表を反映。名前・括弧内の表記・役職・順序は原稿どおり。役職の指定がない4名は「メンバー」として掲載。
 
-- 池ちゃん: https://kick.com/iketube
-- なおと: https://kick.com/sapporo7010
-- ぱんだ院長: https://kick.com/panda_dr
-- 上記3名のプロフィール画像は各 KICK ページが示す files.kick.com の画像を利用。
-- うどんちゃんねる: https://kick.com/chinpokochannel （ユーザー提供の現行URLを反映、KICKのページタイトルも確認）。2026-10-29 に配信ページの channel-avatar から現行プロフィール画像を取得して掲載。
-- ロンシン: 相談役。https://kick.com/rongxingzang （2026-10-29 ユーザー提供の配信URLを反映）。他のメンバーと同じカードで掲載。配信ページの channel-avatar が表示するKICK標準アイコンを使用（https://kick.com/img/default-profile-pictures/default-avatar-5.webp）。
+- 総代表：IKETUBE（イケちゃん） — https://kick.com/iketube
+- 相談役：ロンシン（佐々木秀夫） — https://kick.com/rongxingzang
+- 顧問：うさわのうどん — https://kick.com/chinpokochannel
+- 関東統括：ぱんだ院長（上野） — https://kick.com/panda_dr
+- 総代表世話役：7010（直人） — https://kick.com/sapporo7010
+- 情報戦略担当：蘭地（RANCHI） — https://kick.com/ranchi_x
+- メンバー：ユーノ — https://kick.com/yunononbiri
+- メンバー：つばにゃん — https://kick.com/tsubanyan
+- メンバー：まぐろ君 — https://kick.com/magurokun8787
+- メンバー：アンノン — https://kick.com/annonkun
 
-ライブ状態、フォロワー数、配信予定は自動取得していません。
+プロフィール画像は各KICK配信ページの channel-avatar を使用。ロンシンとユーノはページが表示するKICK標準アイコン。追加5名の画像も2026-10-29に確認して保存。
+
+団体名と指定画像はユーザー提供。紹介コピーは背景説明から制作。ライブ状態、フォロワー数、配信予定は自動取得していません。
