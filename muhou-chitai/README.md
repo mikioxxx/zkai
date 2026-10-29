@@ -18,7 +18,7 @@ Z界 OSG と分離した静的サイト。公開ファイルは `dist/`。この
 - なおと: https://kick.com/sapporo7010
 - ぱんだ院長: https://kick.com/panda_dr
 - 上記3名のプロフィール画像は各 KICK ページが示す files.kick.com の画像を利用。
-- うどんちゃんねる: https://kick.com/chinpokochannel （ユーザー提供の現行URLを反映、KICKのページタイトルも確認）。写真を推測で流用せず文字ビジュアルを使用。
+- うどんちゃんねる: https://kick.com/chinpokochannel （ユーザー提供の現行URLを反映、KICKのページタイトルも確認）。2026-10-29 に配信ページの channel-avatar から現行プロフィール画像を取得して掲載。
 - ロンシン: 相談役。https://kick.com/rongxingzang （2026-10-29 ユーザー提供の配信URLを反映）。他のメンバーと同じカードで掲載。配信ページの channel-avatar が表示するKICK標準アイコンを使用（https://kick.com/img/default-profile-pictures/default-avatar-5.webp）。
 
 ライブ状態、フォロワー数、配信予定は自動取得していません。
