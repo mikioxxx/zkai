@@ -23,7 +23,6 @@ Z界 OSG と分離した静的サイト。公開ファイルは `dist/`。この
 - メンバー：まぐろ君 — https://kick.com/magurokun8787
 - メンバー：アンノン — https://kick.com/annonkun
 - メンバー：ZNK2525 — https://kick.com/znk2525
-- メンバー：hoshishibuya — https://kick.com/hoshishibuya
 - メンバー：kariko2525 — https://kick.com/kariko2525
 - メンバー：badokick — https://kick.com/badokick
 - メンバー：kuru96 — https://kick.com/kuru96
@@ -44,3 +43,5 @@ Z界 OSG と分離した静的サイト。公開ファイルは `dist/`。この
 2026-11-12：kuru96を13番目のメンバーとして追加。表示名とプロフィール画像はKICKチャンネルAPIで確認。
 
 2026-11-14：sisikuを14番目のメンバーとして追加。表示名とプロフィール画像はKICKチャンネルAPIで確認。
+
+2026-11-14：ユーザー指定によりhoshishibuya（ほっしー）を一覧から削除。残る13名の番号を振り直し。
