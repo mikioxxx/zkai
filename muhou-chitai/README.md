@@ -19,7 +19,6 @@ Z界 OSG と分離した静的サイト。公開ファイルは `dist/`。この
 - 顧問：うさわのうどん — https://kick.com/chinpokochannel
 - 関東統括：ぱんだ院長（上野） — https://kick.com/panda_dr
 - 総代表世話役：7010（直人） — https://kick.com/sapporo7010
-- 情報戦略担当：蘭地（RANCHI） — https://kick.com/ranchi_x
 - メンバー：まぐろ君 — https://kick.com/magurokun8787
 - メンバー：アンノン — https://kick.com/annonkun
 - メンバー：ZNK2525 — https://kick.com/znk2525
@@ -48,3 +47,5 @@ Z界 OSG と分離した静的サイト。公開ファイルは `dist/`。この
 2026-11-14：ユーザー指定によりhoshishibuya（ほっしー）を一覧から削除。残る13名の番号を振り直し。
 
 2026-11-19：izumikoekakeを14番目のメンバーとして追加。表示名とプロフィール画像はKICKチャンネルAPIで確認。
+
+2026-11-19：ユーザー指定により蘭地（ranchi_x）を一覧から削除。残る13名の番号を振り直し。
