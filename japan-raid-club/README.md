@@ -1,31 +1,20 @@
 # JAPAN RAID CLUB
 
-元の `japan-raid-club.html` を基にした独立サイトです。デザインと本文は維持し、参加フォームとその説明だけ変更しています。
+ユーザー提供の `index.html` に差し替えた静的サイト。入会フォームは既存のNetlify Forms受付を継続使用しています。
 
-## Netlify 設定
-
-既存の無法地帯とは別のNetlifyサイトとして同じGitHubリポジトリを接続します。
+## Netlify
 
 - Base directory: `japan-raid-club`
-- Build command: 空欄
 - Publish directory: `dist`
+- Build command: 空欄
+- Formsのform detectionを有効にしてデプロイ
+- 受付フォーム名: `raid-club-join`（既存と同じ）
 
-Formsで **Enable form detection** を有効にしてからデプロイしてください。既にデプロイした場合は再デプロイします。
-申請はFormsの `raid-club-join` に保存されます。メール通知が必要な場合はNetlify側で通知先を設定してください。
-公開後、テスト申請を1件送信し、Formsへの保存を確認してください。ローカルプレビューでは送信を抑止します。
+## 申請項目
 
-## フォーム
-
-KICK IDまたはチャンネルURL（必須、送信時にIDへ統一）、配信者名（任意）、ルール同意（必須）。ボット対策用の非表示項目を設定。
-送信中の重複操作を防ぎ、通信エラー時は入力を保持して再送できるようにしています。
-
-https://docs.netlify.com/manage/forms/setup/
-
-## 参加メンバー
-
-- うどん: https://kick.com/chinpokochannel
-- あんのん: https://kick.com/annonkun
-- 449: https://kick.com/sisiku
-- ぜんか: https://kick.com/znk2525
-
-メンバー欄は `dist/index.html` の `members` セクションで管理しています。
+活動名（nickname）、KICK IDまたはURL（kickid）、連絡先（contact）、志望理由（reason）。すべて必須。
+URLはIDに変換して送信。送信中の重複操作を防ぎ、失敗時は入力を保持。
+新デザインには旧ルール欄がないため、旧ルール同意項目は使用していません。
+公開メンバー一覧は提供HTMLの「NO PUBLIC MEMBER LIST」に合わせて非掲載。
+提供HTMLにある人物関与未確認・デザイン案の注記は維持しています。
+公開後、Formsに追加項目が記録されることを確認してください。
