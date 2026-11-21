@@ -20,3 +20,11 @@ KICK IDまたはチャンネルURL（必須、送信時にIDへ統一）、配�
 送信中の重複操作を防ぎ、通信エラー時は入力を保持して再送できるようにしています。
 
 https://docs.netlify.com/manage/forms/setup/
+
+## 参加メンバー
+
+- あんのん: https://kick.com/annonkun
+- 449: https://kick.com/sisiku
+- ぜんか: https://kick.com/znk2525
+
+メンバー欄は `dist/index.html` の `members` セクションで管理しています。
