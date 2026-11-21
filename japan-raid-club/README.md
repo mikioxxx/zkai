@@ -23,6 +23,7 @@ https://docs.netlify.com/manage/forms/setup/
 
 ## 参加メンバー
 
+- うどん: https://kick.com/chinpokochannel
 - あんのん: https://kick.com/annonkun
 - 449: https://kick.com/sisiku
 - ぜんか: https://kick.com/znk2525
